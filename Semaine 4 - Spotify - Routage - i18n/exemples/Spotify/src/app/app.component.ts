@@ -16,8 +16,8 @@ class Song {
   constructor(public id: string, public name: string) {}
 }
 
-const CLIENT_ID = VOTRE_CLIENT_ID;
-const CLIENT_SECRET = VOTRE_CLIENT_SECRET;
+const CLIENT_ID: string="348d08dbfdef405aa8a98cbc0308b4b8";
+const CLIENT_SECRET: string="07d6050821bb4e918e486897835f7973";
 
 @Component({
   selector: 'app-root',
